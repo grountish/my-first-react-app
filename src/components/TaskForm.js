@@ -20,7 +20,7 @@ export default class TaskForm extends Component {
 
     render() {
         return (
-            <form onSubmit={this.onSubmit}>
+            <form onSubmit={this.onSubmit} className="centered">
                 <input
                 input="text"
                 name="title"

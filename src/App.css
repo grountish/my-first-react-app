@@ -1,0 +1,13 @@
+.mainApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   
+}
+.centered{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
