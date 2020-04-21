@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 
 class Task extends Component {
 
-        StyleCompleted() {
-            return {
-                fontSize: '20px',
-                color: this.props.task.done ? 'gray' : 'black',
-                textDecoration: this.props.task.done ? 'line-through' : 'none'
-            }
+    StyleCompleted() {
+        return {
+            fontSize: '20px',
+            color: this.props.task.done ? 'gray' : 'black',
+            textDecoration: this.props.task.done ? 'line-through' : 'none'
         }
+    }
 
     render() {
 
